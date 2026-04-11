@@ -23,5 +23,4 @@ jobs:
       - name: runner operating system name
         run: uname -a
 
-      - name: pipeline break
-        run: exit 1
+      
