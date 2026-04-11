@@ -15,7 +15,7 @@ jobs:
         run: date
       
       - name: show branch name
-        run: echo "{{ github.ref_name }}"
+        run: echo "Current branch is $GITHUB_REF_NAME"
       
       - name: list repo files
         run: ls -la
