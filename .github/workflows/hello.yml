@@ -10,3 +10,15 @@ jobs:
     steps:
       - name: hello workflow
         run:  echo "Hello from GitHub Actions!"
+      
+      - name: current date & time
+        run: date
+      
+      - name: show branch name
+        run: echo "{{ github.ref_name }}"
+      
+      - name: list repo files
+        run: ls -la
+
+      - name: runner operating system name
+        run: uname -a
