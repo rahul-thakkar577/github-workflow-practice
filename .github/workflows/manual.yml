@@ -2,7 +2,7 @@ name: manual trigger
 
 on:
   workflow_dispatch:
-    input:
+    inputs:
       environment:
         description: Enter environment
         required: true
