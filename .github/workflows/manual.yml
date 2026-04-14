@@ -2,11 +2,11 @@ name: manual trigger
 
 on:
   workflow_dispatch:
-  input:
-    environment:
-      description: Enter environment
-      required: true
-      default: staging
+    input:
+      environment:
+        description: Enter environment
+        required: true
+        default: staging
 
 jobs:
 
